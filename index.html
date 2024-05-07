@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grading System</title>
+
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h2>Grading System</h2>
+
+      <label for="om1">Biology</label>
+      <input type="number" id="om1" placeholder="Enter obtain marks" required />
+
+      <label for="om2">Physics</label>
+      <input type="number" id="om2" placeholder="Enter obtain marks" required />
+
+      <label for="om3">Chemistry</label>
+      <input type="number" id="om3" placeholder="Enter obtain marks" required />
+
+      <button onclick="calculateGrade()">submit</button>
+
+      <div id="result1"></div>
+      <div id="result2"></div>
+    </div>
+  </body>
+</html>
